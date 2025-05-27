@@ -19,27 +19,6 @@ React provides a fast, component-based UI experience; Express enables a lightwei
 
 ---
 
-## Folder Structure
-
-CC223_TA3/
-├── backend/
-│ ├── index.js # Express backend server
-│ ├── package.json
-│ ├── cc223-ta3-firebase-adminsdk-fbsvc-8b89858fed.json (gitignored)
-│ └── .env # Environment variables (gitignored)
-│
-├── frontend/
-│ ├── src/ # React source files
-│ ├── public/
-│ ├── package.json
-│ └── README.md # Frontend README (optional)
-│
-├── .gitignore # Ignored files/folders
-└── README.md # This file
-
-
----
-
 ## Getting Started - Run Locally
 
 ### Prerequisites
@@ -51,8 +30,8 @@ CC223_TA3/
 
 ### Setup Instructions
 
+1. Clone the repository
 
-2. **Backend Setup**
 ```bash
 git clone https://github.com/yourusername/CC223_CompanionBot.git
 cd CC223_TA3
