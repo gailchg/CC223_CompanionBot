@@ -30,6 +30,10 @@ React provides a fast, component-based UI experience; Express enables a lightwei
 
 ### Setup Instructions
 
+```bash
+git clone https://github.com/yourusername/CC223_CompanionBot.git
+cd CC223_TA3
+
 1. Clone the repository
 
 ```bash
