@@ -48,16 +48,16 @@ React provides a fast, component-based UI experience; Express enables a lightwei
 4. Environment configuration
 
 - In the backend folder, create a .env file and add:
-OPENROUTER_API_KEY=your_openrouter_api_key_here
-NODE_ENV=development
-PORT=5000
+- OPENROUTER_API_KEY=your_openrouter_api_key_here
+- NODE_ENV=development
+- PORT=5000
 
 5. Firebase Service Account
 
 - Place your Firebase service account JSON file (named something like cc223-ta3-firebase-adminsdk-fbsvc-xxxx.json) inside the backend/ folder.
 
-Make sure your backend index.js references this file correctly, for example:
-const serviceAccount = require('./cc223-ta3-firebase-adminsdk-fbsvc-xxxx.json');
+- Make sure your backend index.js references this file correctly, for example:
+- const serviceAccount = require('./cc223-ta3-firebase-adminsdk-fbsvc-xxxx.json');
 
 6. Start Backend Server
 
