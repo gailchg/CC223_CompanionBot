@@ -51,8 +51,8 @@ CC223_TA3/
 
 ### Setup Instructions
 
-1. **Clone the repository**
 
+2. **Backend Setup**
 ```bash
 git clone https://github.com/yourusername/CC223_CompanionBot.git
 cd CC223_TA3
