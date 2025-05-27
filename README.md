@@ -30,44 +30,44 @@ React provides a fast, component-based UI experience; Express enables a lightwei
 
 ### Setup Instructions
 
-1. **Clone the repository**
+1. Clone the repository
 
-git clone https://github.com/yourusername/CC223_CompanionBot.git
-cd CC223_TA3
+- git clone https://github.com/yourusername/CC223_CompanionBot.git
+- cd CC223_TA3
 
 2. Backend Setup
 
-cd backend
-npm install
+- cd backend
+- npm install
 
 3. Frontend Setup
 
-cd ../frontend
-npm install
+- cd ../frontend
+- npm install
 
 4. Environment configuration
 
-In the backend folder, create a .env file and add:
+- In the backend folder, create a .env file and add:
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 NODE_ENV=development
 PORT=5000
 
 5. Firebase Service Account
 
-Place your Firebase service account JSON file (named something like cc223-ta3-firebase-adminsdk-fbsvc-xxxx.json) inside the backend/ folder.
+- Place your Firebase service account JSON file (named something like cc223-ta3-firebase-adminsdk-fbsvc-xxxx.json) inside the backend/ folder.
 
 Make sure your backend index.js references this file correctly, for example:
 const serviceAccount = require('./cc223-ta3-firebase-adminsdk-fbsvc-xxxx.json');
 
 6. Start Backend Server
 
-cd backend
-node index.js
+- cd backend
+- node index.js
 
 7. Start Frontend Server
 
-cd frontend
-npm start
+- cd frontend
+- npm start
 
 
 
