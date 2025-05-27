@@ -29,7 +29,8 @@ React provides a fast, component-based UI experience; Express enables a lightwei
 - OpenRouter API key
 
 ### Setup Instructions
-
+```bash
+git clone 
 1. Clone the repository
 
 ```bash
