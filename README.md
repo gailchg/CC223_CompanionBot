@@ -29,11 +29,9 @@ React provides a fast, component-based UI experience; Express enables a lightwei
 - OpenRouter API key
 
 ### Setup Instructions
-```bash
-git clone 
+
 1. Clone the repository
 
-```bash
 git clone https://github.com/yourusername/CC223_CompanionBot.git
 cd CC223_TA3
 
