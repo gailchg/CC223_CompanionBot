@@ -14,9 +14,6 @@ CC223 CompanionBot is an AI-powered chatbot application that enables users to in
 - **AI Integration:** OpenRouter API  
 - **Deployment:** Render.com (backend hosting)
 
-**Rationale:**  
-React provides a fast, component-based UI experience; Express enables a lightweight, flexible backend; Firestore offers a scalable NoSQL database with real-time capabilities; OpenRouter API provides powerful AI chat completions; Render.com simplifies backend deployment with automatic environment variable handling.
-
 ---
 
 ## Getting Started - Run Locally
