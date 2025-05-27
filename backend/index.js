@@ -4,11 +4,23 @@ const axios = require('axios');
 require('dotenv').config();
 
 const admin = require('firebase-admin');
-const serviceAccount = require('./firebase-service-account.json');
+
+let serviceAccount;
+
+if (process.env.NODE_ENV === 'production') {
+  // 🔐 Use secret file path in Render
+  serviceAccount = require('/etc/secrets/cc223-ta3-firebase-adminsdk-fbsvc-8b89858fed.json');
+} else {
+  // 💻 Use local JSON file (which is .gitignored)
+  serviceAccount = require('./cc223-ta3-firebase-adminsdk-fbsvc-8b89858fed.json');
+}
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential: admin.credential.cert(serviceAccount),
 });
+
+
+
 
 const db = admin.firestore();
 
